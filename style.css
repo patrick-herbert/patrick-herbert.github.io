@@ -59,3 +59,7 @@ body {
     justify-content: right;
     font-size: .8em;
 }
+
+body {
+    padding-bottom: 32px;
+}
