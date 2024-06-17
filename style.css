@@ -21,3 +21,41 @@
     font-weight: 700;
     font-style: italic;
 }
+
+body {
+    background-color: #F9F9F9;
+    color: #0e0e0e;
+}
+
+.header-img-container, .header-h1-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-img {
+    max-width: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 3px double #0e0e0e;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.post-container {
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 3px double #0e0e0e;
+}
+
+.post-date {
+    display: flex;
+    justify-content: right;
+    font-size: .8em;
+}
