@@ -25,6 +25,7 @@
 body {
     background-color: #F9F9F9;
     color: #0e0e0e;
+    padding-bottom: 32px;
 }
 
 .header-img-container, .header-h1-container {
@@ -58,8 +59,4 @@ body {
     display: flex;
     justify-content: right;
     font-size: .8em;
-}
-
-body {
-    padding-bottom: 32px;
 }
