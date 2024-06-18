@@ -26,6 +26,7 @@ body {
     background-color: #F9F9F9;
     color: #0e0e0e;
     padding-bottom: 32px;
+    text-wrap: pretty;
 }
 
 .header-img-container, .header-h1-container {
@@ -50,13 +51,19 @@ body {
     margin-left: 18px;
     margin-right: 18px;
     margin-bottom: 18px;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 7px;
     border: 3px double #0e0e0e;
 }
 
 .post-date {
     display: flex;
     justify-content: right;
-    font-size: .8em;
+    font-size: .5em;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-align: right;
 }
