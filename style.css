@@ -30,8 +30,17 @@
 body {
     background-color: #F9F9F9;
     color: #0e0e0e;
-    padding-bottom: 32px;
+    padding-bottom: 22px;
     text-wrap: pretty;
+}
+
+img {
+    pointer-events: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .header-img-container, .header-h1-container {
@@ -62,6 +71,10 @@ body {
     border: 3px double #0e0e0e;
 }
 
+.post-content .flex {
+    padding-top: 19px;
+}
+
 .post-date {
     display: flex;
     justify-content: right;
@@ -71,11 +84,25 @@ body {
     font-weight: 200;
     font-style: normal;
     text-align: right;
+    pointer-events: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .post-container img {
-    margin-top: 19px;
     max-width: 250px;
     width: 100%;
     height: auto;
+}
+
+.footer {
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+.footer a {
+    text-decoration: none;
 }
