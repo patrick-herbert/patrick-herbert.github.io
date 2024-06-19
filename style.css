@@ -66,6 +66,7 @@ img {
     row-gap: 1rem;
     align-items: center;
     justify-content: center;
+    padding-bottom: 7px;
 }
 
 .col33 {
