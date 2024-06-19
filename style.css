@@ -106,3 +106,10 @@ img {
 .footer a {
     text-decoration: none;
 }
+
+/** Mobile **/
+@media (max-width:641px) {
+    .flex {
+        flex-direction: column;
+    }
+}
