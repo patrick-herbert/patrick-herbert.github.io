@@ -138,5 +138,6 @@ img {
 
     .col33, .col50, .col66 {
         width: 100%;
+        margin-block-start: 0;
     }
 }
