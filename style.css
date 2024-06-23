@@ -69,6 +69,10 @@ img {
     padding-bottom: 7px;
 }
 
+.flex p:last-child {
+    margin-bottom: 0;
+}
+
 .col33 {
     width: 33.33%;
 }
